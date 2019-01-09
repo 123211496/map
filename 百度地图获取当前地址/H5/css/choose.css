@@ -1,0 +1,145 @@
+.header-right {
+  width: 2.24rem;
+  height: 1.76rem;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  line-height: 1.76rem;
+  font-size: 0.56rem;
+  color: #ffffff;
+}
+/*ËÑË÷*/
+.search {
+  height: 1.76rem;
+}
+.searchBox {
+  width: 13.8rem;
+  height: 1.2rem;
+  background-color: #FFFFFF;
+  border-radius: 0.6rem;
+  margin-left: 0.6rem;
+  margin-top: 0.3rem;
+  border: 0.02rem solid #dddddd;
+  display: inline-block;
+}
+.search-img {
+  width: 0.64rem;
+  height: 0.64rem;
+  display: block;
+  float: left;
+  margin-top: 0.28rem;
+  margin-left: 0.6rem;
+}
+.search-input {
+  height: 0.8rem;
+  width: 11.6rem;
+  float: left;
+  margin-left: 0.2rem;
+  font-size: 0.56rem;
+  color: #333333;
+  border: none;
+  display: block;
+  margin-top: 0.2rem;
+}
+.site {
+  height: 1.76rem;
+  background: #ffffff;
+  line-height: 1.76rem;
+}
+.site-left {
+  display: block;
+  font-size: 0.56rem;
+  color: #333333;
+  float: left;
+  text-indent: 0.66rem;
+}
+.site-right {
+  display: block;
+  font-size: 0.56rem;
+  color: #1D7CD6;
+  float: right;
+  text-indent: 0.66rem;
+  margin-right: 0.6rem;
+}
+.city {
+  display: block;
+  background: #FFFFFF;
+  height: 2rem;
+  margin-top: 0.4rem;
+}
+.city-left {
+  height: 2rem;
+  line-height: 2rem;
+  float: left;
+  display: block;
+  font-size: 0.56rem;
+  color: #333333;
+  text-indent: 0.62rem;
+}
+.city-right {
+  float: right;
+  display: block;
+  height: 2rem;
+  line-height: 2rem;
+}
+.city-right-span {
+  font-size: 0.48rem;
+  color: #1D7CD6;
+  display: block;
+  float: left;
+  margin-right: 0.34rem;
+}
+.city-right-img {
+  width: 0.16rem;
+  height: 0.32rem;
+  display: block;
+  float: left;
+  margin-right: 0.66rem;
+  margin-top: 0.84rem;
+}
+.centent-bt {
+  height: 1.44rem;
+  line-height: 1.44rem;
+  font-size: 0.48rem;
+  color: #999999;
+  display: block;
+  text-indent: 0.6rem;
+}
+.li {
+  height: 2.56rem;
+  background: #FFFFFF;
+  display: block;
+  border-bottom: 0.02rem solid #eaeaea;
+  margin-top: 0.02rem;
+}
+.li-left {
+  float: left;
+  display: block;
+  text-indent: 0.84rem;
+}
+.li-left-span {
+  font-size: 0.56rem;
+  color: #333333;
+  display: block;
+  margin-top: 0.4rem;
+}
+.li-left-text {
+  font-size: 0.48rem;
+  color: #999999;
+  display: block;
+  margin-top: 0.4rem;
+}
+.li-right {
+  float: right;
+  width: 1.84rem;
+  display: block;
+}
+.li-right-img {
+  width: 0.64rem;
+  height: 0.44rem;
+  display: block;
+  margin: auto;
+  margin-top: 1.06rem;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>选择社区</title>
+    <link rel="stylesheet" type="text/css" href="../common/css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/choose.css" />
+    <style>
+			[v-cloak] {
+			display: none;
+		}
+		</style>
+</head>
+
+<body>
+   <div id="app" v-cloak>
+   	 <!--头部-->
+    <header class="header">
+        <a href="javascript:;" @click="back" class="header-zou"><img src="../img/nbar_back_white.png" class="header-left" /></a>
+        <span class="header-zt">选择社区</span>
+        <a href="javascript:;" class="header-right"><span class="header-right-span">确定</span></a>
+    </header>
+    <!--搜索-->
+    <div id="allmap" style="width: 50%; height: 50%; position: absolute; display: none"></div>
+    <div class="search">
+        <div class="searchBox">
+            <img src="../img/nbar_search.png" class="search-img" />
+            <input type="text" value="" class="search-input" placeholder="搜索社区" />
+        </div>
+    </div>
+    <div class="site">
+        <label class="site-left">当前位置：<span>天天社区</span></label>
+        <label class="site-right">登记社区：<span>天天社区</span></label>
+    </div>
+    <div class="city">
+        <span class="city-left">选择城市</span>
+        <div class="city-right">
+            <span class="city-right-span">深圳</span>
+            <img src="../img/more_grey_left.png" class="city-right-img">
+        </div>
+    </div>
+    <div class="content">
+        <span class="centent-bt">所有社区</span>
+        <ul class="ul">
+            <li class="li" v-for="item in site">
+                <div class="li-left">
+                    <span class="li-left-span">{{item.areaName}}</span>
+                </div>
+                <div class="li-right">
+                    <img src="../img/select_blue.png" class="li-right-img">
+                </div>
+            </li>
+        </ul>
+    </div>
+   </div>
+</body>
+<script src="https://api.map.baidu.com/api?v=2.0&s=1&ak=自己的秘钥"></script>
+<script  src="../common/js/jquery-3.3.1.min.js"></script>
+<!-- <script src="http://res.hsxt.cn/pub/data/js/city.js"></script> -->
+<script src="../common/js/common.js"></script>
+<script src="../common/js/vue.min.js"></script>
+<!-- <script src="../common/js/axios.min.js"></script> -->
+<script src="http://res.hsxt.cn/pub/data/js/county.js"></script>
+<script src="../js/choose.js"></script>
+</html>

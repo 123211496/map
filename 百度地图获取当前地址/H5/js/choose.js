@@ -50,12 +50,10 @@ var vm=new Vue({
                             });
                         } 
                     });
-				},
-				back(){
-					window.location.href = "../hscm-web-user-h5/index.html"
-				}
-				},
-				mounted() {
-					this.init()
-				}
+		},
+	back(){
+		window.location.href = "../hscm-web-user-h5/index.html"
+	}
+},
+				
 			})

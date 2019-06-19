@@ -1,6 +1,6 @@
 var vm=new Vue({
-			el: "#app",
-			data: {
+       el: "#app",
+	    data: {
                 site:'',
                 list:[],
                 site:[]
@@ -16,7 +16,7 @@ var vm=new Vue({
                     var geolocation = new BMap.Geolocation();
                     // 开启SDK辅助定位
                     geolocation.enableSDKLocation();
-					geolocation.getCurrentPosition(function (r) {
+		      geolocation.getCurrentPosition(function (r) {
                         if (this.getStatus() == BMAP_STATUS_SUCCESS) {
                             var mk = new BMap.Marker(r.point);
                             map.addOverlay(mk);
